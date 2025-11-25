@@ -8,6 +8,5 @@ aargvark = "0.8"
 futures = "0.3"
 loga = "0.5"
 moka = { version = "0.12", features = ["future"] }
-tokio = { version = "1", features = ["rt", "macros", "signal"] }
-tokio-util = "0.7"
+tokio = { version = "1", features = ["rt", "macros", "signal", "time"] }
 zbus = { git = "https://github.com/dbus2/zbus", rev = "ec0f51f11ea07cff75417cdf3c3e5119b6ca74d4" }
